@@ -13,10 +13,15 @@ research.txt: A basic text file containing the contents of previous research.
 The following files are all generated when running the commandlines in exercise 3.
 
 c13genes.txt: 348 lines decribing the genes from the gff3 file for Human chromosome 13
+
 ENSG00000139618.gff3: A file containing the line associated with the Ensembl i.d ENSG00000139618
+
 exon_lenths.txt: A file containing the lengths of the exons for the transcript ENST00000470094
+
 exon_sequences.gff3: A file containing the lines for the exons of the transcript ENST00000470094
+
 Homo_sapiens.GRCh38.113.chromosome.13.gff3: Downloaded gff3 file for Human chromosome 13
+
 longest.txt: A file listing the lengths of the longest genes which are greater than 10000nt. A sanity check to ensure only values greater than 9999nt are included.
 
 ## Reproducing the exercise:
