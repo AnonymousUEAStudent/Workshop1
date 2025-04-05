@@ -25,10 +25,16 @@ Homo_sapiens.GRCh38.113.chromosome.13.gff3: Downloaded gff3 file for Human chrom
 longest.txt: A file listing the lengths of the longest genes which are greater than 10000nt. A sanity check to ensure only values greater than 9999nt are included.
 
 ## Reproducing the exercise:
-Clone the repo and use cd to navigate into the repo folder created.
+Clone the repo and use cd to navigate into the repo folder created:
+```
+git clone https://github.com/AnonymousUEAStudent/Workshop1.git
+cd Workshop1
+```
 
-Ensure that both test1.txt and research.txt are present in your current working directory (use ls on the commandline)
-Run the bash script file using: bash script.sh.
+Run the bash script file using: 
+```
+bash workshop_1.sh
+```
 The script includes a few setup lines to ensure the script is reproducible when running multiple times.
 This includes the deletion of files and folders generated during the script.
 Running the script will produce the output described in the workshop_1.sh.txt file.
