@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Student ID: 100499009
 
 # For full reproducibility this workshop has a full public github repository with a README.md file. 
